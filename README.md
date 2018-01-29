@@ -1,6 +1,6 @@
-# learnia-interactive
+# Learnia Interactive
 
-> Web la cual es un set de herramientas para la creación de cursos y actividades interactivas gamificadas.
+> LearniaInteractive es una web para la creación y visualización de cursos, y actividades educativas gamificadas.
 
 ## Build Setup
 
