@@ -14,3 +14,9 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+# Linux
+.directory
+
+# Secret (Firebase, Google, etc)
+services/config.js

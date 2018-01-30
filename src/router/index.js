@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
@@ -8,8 +7,22 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'LandingPage',
+      component: require('@/layout/LandingPage')
+    },
+    {
+      path: '/inside',
+      name: 'Inside',
+      component: require('@/layout/Inside')
+    },
+    {
+      path: '/dashboard',
+      name: 'Dashboard',
+      component: require('@/components/Dashboard/index')
+    },
+    {
+      path: '*',
+      redirect: '/'
     }
   ]
 })

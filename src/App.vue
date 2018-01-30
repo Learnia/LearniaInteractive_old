@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="app">
     <v-navigation-drawer
       persistent
       :mini-variant="miniVariant"
