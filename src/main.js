@@ -6,7 +6,12 @@ import router from './router'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 
-Vue.use(Vuetify, { theme: {
+import MultiLanguage from 'vue-multilanguage'
+import Translations from './js/lang'
+
+Vue.use(MultiLanguage, Translations)
+
+/* Vue.use(Vuetify, { theme: {
   primary: '#ee44aa',
   secondary: '#424242',
   accent: '#82B1FF',
@@ -14,7 +19,9 @@ Vue.use(Vuetify, { theme: {
   info: '#2196F3',
   success: '#4CAF50',
   warning: '#FFC107'
-}})
+}}) */
+
+Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 

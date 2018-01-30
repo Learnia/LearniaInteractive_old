@@ -6,7 +6,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn @click="selected = 'ConnectOrRegister'" flat>Connect</v-btn>
-        <v-btn v-if="!isWeb" flat>RESET</v-btn>
+        <v-btn flat>RESET</v-btn>
         <v-btn to="Inside">test</v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -21,7 +21,7 @@
     </main>
     <v-footer app>
       <v-spacer></v-spacer>
-      <span>Learnia (&copy; 2017)</span>
+      <span>Learnia (&copy; 2018)</span>
     </v-footer>
   </v-app>
 </template>
@@ -44,8 +44,7 @@ export default {
   data: () => ({
     name: 'LandingPage',
     title: 'LearniaInteractive',
-    selected: 'ConnectOrRegister',
-    isWeb: process.env.IS_WEB
+    selected: 'ConnectOrRegister'
   }),
   mounted: function () {
     const self = this

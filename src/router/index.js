@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import LandingPage from '@/layout/LandingPage'
+import Inside from '@/layout/Inside'
+
 Vue.use(Router)
 
 export default new Router({
@@ -8,12 +11,12 @@ export default new Router({
     {
       path: '/',
       name: 'LandingPage',
-      component: require('@/layout/LandingPage')
+      component: LandingPage
     },
     {
       path: '/inside',
       name: 'Inside',
-      component: require('@/layout/Inside')
+      component: Inside
     },
     {
       path: '/dashboard',
