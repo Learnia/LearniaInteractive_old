@@ -40,6 +40,11 @@ LearniaInteractive es un set de herramientas para la educación. Las cuales son:
 
 *A futuro puede que se añadan más herramientas para la educación, pero de momento estas son las principales.*
 
+Además de otras características:
+
+* Medallas
+* Puntaje
+
 ### 1) Crear actividades educativas interactivas gamificadas
 
 Por medio de LearniaInteractive y la herramienta de creación de actividades (En la zona creador) se podra crear actividad para uso en la aula de clases o simplemente para el uso de los estudiantes.
